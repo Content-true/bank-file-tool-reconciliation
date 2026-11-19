@@ -1,0 +1,10 @@
+{
+  "name": "content-true/bank-file-tool-reconciliation",
+  "description": "Reconcile normalized bank-statement CSV rows with opening and closing balances",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://bankfiletool.com/",
+  "keywords": ["bank statement", "csv", "reconciliation", "finance"],
+  "require": {"php": "^8.1"},
+  "autoload": {"psr-4": {"ContentTrue\\BankFileTool\\": "src/"}}
+}
